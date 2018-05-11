@@ -35,7 +35,7 @@ public class Autoboxing {
 			 		 * 1. 调用包装类的 parseXxx 静态方法
 			 		 * 2. 调用包装类的 valueOf() 方法转换为基本类型的包装类，会自动拆箱
 			 		 * 
-			 		 * */
+			 		 */
 		     	double m = 78.5;
 		     	//将基本类型转换为字符串
 				String str1 =String.valueOf(m);                              ;
@@ -45,7 +45,7 @@ public class Autoboxing {
 				String str = "180.20";
 				// 将字符串转换为基本类型
 				Double s =Double.valueOf(str)                        ;
-			
+				//int y=Integer.parseInt(str);
 				System.out.println("str 转换为double型后与整数20的求和结果为： "+(s+20));
 	}
 
