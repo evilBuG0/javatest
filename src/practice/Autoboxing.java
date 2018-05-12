@@ -47,6 +47,8 @@ public class Autoboxing {
 				Double s =Double.valueOf(str)                        ;
 				//int y=Integer.parseInt(str);
 				System.out.println("str 转换为double型后与整数20的求和结果为： "+(s+20));
+				Test20180512 test2 = new Test20180512();  
+		        test2.run();
 	}
 
 }
